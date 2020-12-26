@@ -10,7 +10,8 @@ export class SearchComponent{
   artistas: any[] = [];
   loading: boolean = false;
 
-  constructor( private spotifyService: SpotifyService ) { }
+  constructor( private spotifyService: SpotifyService ) {
+  }
 
   buscar(termino: string){
     this.loading = true;
